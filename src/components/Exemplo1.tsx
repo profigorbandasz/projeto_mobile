@@ -4,15 +4,15 @@ import { styles } from '../styles/styles';
 
 const Exemplo1 = () => {
   //variável
-  let url = 'https://reactnative.dev/docs/assets/p_cat2.png';
+  let url = 'https://cdn-icons-png.flaticon.com/512/6364/6364352.png';
 
   //O retorno da função é o que será construído em tela
   return (
     <ScrollView>
-      <Text style={styles.titulo1}>Exemplo 1 com style</Text>
+      <Text style={styles.titulo1}>bastante legal</Text>
 
       <View>
-        <Text>Text comum sem estilização</Text>
+        <Text style={styles.titulo1}>escreva oque pede em baixo</Text>
 
         <Image
           source={{uri: url}}
@@ -22,7 +22,11 @@ const Exemplo1 = () => {
 
       <TextInput
         style={[styles.caixa_texto, styles.largura_70]}
-        defaultValue="Digite aqui"
+        defaultValue="Digite seu nome"
+      />
+      <TextInput
+        style={[styles.caixa_texto, styles.largura_70]}
+        defaultValue="Digite seu sobrenome"
       />
     </ScrollView>
   );
