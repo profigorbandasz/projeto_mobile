@@ -9,7 +9,7 @@ type NomeProps = {
 
 const NomePersonalizado = (props: NomeProps) => {
   return (
-    <Text style={styles.titulo2}>
+    <Text style={styles.titulo1}>
         {props.nome + ' ' + props.sobrenome}
     </Text>
   )

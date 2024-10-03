@@ -1,23 +1,24 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
+
     tela: {
         flex: 1,
-        backgroundColor: '#FFFACD'
+        alignItems:'center',
+        backgroundColor: '#a15ff5'
     },
     titulo1: {
+       justifyContent: 'center',
+        marginTop:50,
         fontSize: 40,
         fontWeight: 'bold',
-        color: 'black'
+        color: 'white'
     },
-    titulo2: {
-        fontSize: 30,
-        fontWeight: 'bold',
-        color: 'black'
-    },
+
     botao: {
         justifyContent: 'center',
         backgroundColor: 'green',
+        padding:100,
         paddingVertical: 10,
         paddingHorizontal: 30,
         marginTop: 20,
@@ -29,11 +30,13 @@ const styles = StyleSheet.create({
     },
     
     caixa_texto: {
+backgroundColor:'white',
         color: 'black',
         fontSize: 20,
         borderWidth: 1,
         borderRadius: 4,
-        margin: 3
+        margin: 3,
+        marginTop:50
     },
 
     largura_70: {
@@ -41,6 +44,8 @@ const styles = StyleSheet.create({
     },
 
     imagem_200: {
+        borderRadius: 100,
+        marginTop:50,
         width: 200,
         height: 200
     }
