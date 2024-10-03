@@ -1,9 +1,10 @@
 import { StyleSheet } from "react-native";
 
+//o StyleSheet é a folha de estilo, equivalente ao css
 const styles = StyleSheet.create({
     tela: {
-        flex: 1,
-        backgroundColor: '#FFFACD'
+        flex: 1, 
+        backgroundColor: '#FFFACD' 
     },
     titulo1: {
         fontSize: 40,
