@@ -1,8 +1,9 @@
 import { NativeStackScreenProps, createNativeStackNavigator } from "@react-navigation/native-stack";
-import TelaPrincipal from "../layouts/TelaPrincipal";
+import a from "../layouts/Telalogin";
+import Telalogin from "../layouts/TelaPrincipal";
 
 type RootStackParamList = {
-    TelaPrincipal: undefined;
+    Telalogin: undefined;
     
 };
 
@@ -11,15 +12,15 @@ const Stack = createNativeStackNavigator<RootStackParamList>();
 const HomeNavigator = () => {
     return (
         <Stack.Navigator 
-            initialRouteName="TelaPrincipal" 
+            initialRouteName="Telalogin" 
             screenOptions={{headerShown: false}}>
-            <Stack.Screen name="TelaPrincipal" component={TelaPrincipal} />
+            <Stack.Screen name="Telalogin" component={Telalogin} />
         </Stack.Navigator>
     );
 }
 
 type PrincipalProps = NativeStackScreenProps<RootStackParamList, 
-    'TelaPrincipal'>;    
+    'Telalogin'>;    
 
 export default HomeNavigator;
 export type {
