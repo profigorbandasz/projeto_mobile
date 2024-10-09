@@ -1,5 +1,6 @@
 import { NativeStackScreenProps, createNativeStackNavigator } from "@react-navigation/native-stack";
 import TelaPrincipal from "../layouts/TelaPrincipal";
+import TelaLogin from "../layouts/TelaLogin";
 
 //Define quais as telas e os parâmetros de cada tela
 type RootStackParamList = {
